@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { getLines, getSections } from "../../helper/dataHelper";
+import { getSections } from "../../helper/dataHelper";
 import fetchDataStructure from "../../api/api";
 import Lines from "./shared/Lines";
 import Options from "./shared/Options";
