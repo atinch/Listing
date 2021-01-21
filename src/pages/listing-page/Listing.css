@@ -1,0 +1,28 @@
+.Section {
+  text-align: left;
+  background-color: lightgray;
+  padding: 20px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.Options {
+  display: flex;
+  flex-direction: row;
+}
+
+.Option {
+  padding: 5px 10px 5px 0;
+  font-size: 12px
+}
+
+.Line {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Element {
+  background-color: pink;
+  padding: 10px;
+}
