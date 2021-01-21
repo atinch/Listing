@@ -1,10 +1,10 @@
-import Options from './Options'
+import Options from "./Options";
 
-const Element = (props) => {
+const Element = props => {
   return (
     <div className="Element">
       <div>{props.element.properties.name}</div>
-      <Options options={props.element.options}/>
+      <Options options={props.element.options} />
     </div>
   );
 };

@@ -1,10 +1,12 @@
-import Element from './Element'
+import Element from "./Element";
 
-const Lines = (props) => {
+const Lines = props => {
   return props.lines.map((line, index) => {
     return (
       <div key={index} className="Line">
-        {line.elements.map(element => <Element element={element}/>)}
+        {line.elements.map(element => (
+          <Element element={element} />
+        ))}
       </div>
     );
   });

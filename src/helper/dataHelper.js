@@ -7,4 +7,13 @@ export const getLines = (sectionId, structuredData) => {
     }));
 };
 
-
+export const getSections = structuredData => {
+  return structuredData
+    ? structuredData
+        .filter(item => item.type === "section")
+        .map(section => ({
+          ...section,
+          lines: getLines(section.id, structuredData)
+        }))
+    : [];
+};
