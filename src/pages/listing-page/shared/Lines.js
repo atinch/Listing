@@ -5,7 +5,7 @@ const Lines = props => {
     return (
       <div key={index} className="Line">
         {line.elements.map(element => (
-          <Element element={element} />
+          <Element key={index} element={element} />
         ))}
       </div>
     );
